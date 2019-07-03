@@ -207,7 +207,7 @@ h4{
 .seccion-inferior .testimoniales{
     flex-basis: calc(40% - 2rem);
 }
-
+/* Blog */
 .entrada-blog{
     display: flex;
     justify-content: space-between;
@@ -240,4 +240,44 @@ h4{
 }
 .texto-entrada span{
     color: #e08709;
+}
+
+/* Testimoniales */
+.testimonial{
+    background-color: #71b100;
+    font-size: 2rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+}
+.testimonial p{
+    text-align: right;
+}
+.testimonial blockquote::before{
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+}
+.testimonial blockquote{
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
+/* Footer */
+.site-footer{
+    background-color: #333333;
+    margin-bottom: 0;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.copyright{
+    color: #ffffff;
 }
