@@ -317,4 +317,8 @@ h4{
     align-items: center;
 }
 
+/* Contacto */
+label{
+    display: block;
+}
 
