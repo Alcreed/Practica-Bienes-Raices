@@ -150,6 +150,27 @@ h4{
         margin: 0;
     }    
 }
+.navegacion:target{
+    display: block;
+}
+.navegacion{
+    display: none;
+}
+@media(min-width: 768px) {
+    .navegacion{
+        display: block;
+    }
+}
+
+/* Mobile Menu */
+.mobile-menu img{
+    width: 5rem;
+}
+@media(min-width: 768px) {
+    .mobile-menu{
+        display: none;
+    }
+}
 
 /* Iconos nosotros */
 @media(min-width: 768px) {
